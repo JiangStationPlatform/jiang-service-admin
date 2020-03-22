@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://35.241.113.30:8888
+      name: jiang-service-admin
+      label: master
+      profile: dev
