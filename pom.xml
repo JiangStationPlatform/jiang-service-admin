@@ -7,7 +7,6 @@
         <groupId>cn.jiang</groupId>
         <artifactId>jiang-dependencies</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-<!--        <relativePath>../jiang-dependencies/pom.xml</relativePath>-->
     </parent>
 
     <artifactId>jiang-service-admin</artifactId>
@@ -16,11 +15,21 @@
     <name>jiang-service-admin</name>
 
     <dependencies>
+        <!-- comment依赖 Start-->
         <dependency>
             <groupId>cn.jiang</groupId>
             <artifactId>jiang-common-service</artifactId>
-            <version>${parent.version}</version>
+            <version>${project.parent.version}</version>
         </dependency>
+        <!-- comment依赖 End-->
+
+        <!-- Spring Boot Begin -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!-- Spring Boot End -->
 
     </dependencies>
 
