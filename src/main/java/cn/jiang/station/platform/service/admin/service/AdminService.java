@@ -1,6 +1,7 @@
 package cn.jiang.station.platform.service.admin.service;
 
-import cn.jiang.station.platform.service.admin.domain.TbSysUser;
+
+import cn.jiang.station.platform.common.domain.TbSysUser;
 
 public interface AdminService {
     /**

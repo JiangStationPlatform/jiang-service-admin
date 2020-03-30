@@ -1,6 +1,6 @@
 package cn.jiang.station.platform.service.admin.service.impl;
 
-import cn.jiang.station.platform.service.admin.domain.TbSysUser;
+import cn.jiang.station.platform.common.domain.TbSysUser;
 import cn.jiang.station.platform.service.admin.mapper.TbSysUserMapper;
 import cn.jiang.station.platform.service.admin.service.AdminService;
 import org.slf4j.Logger;

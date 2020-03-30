@@ -1,7 +1,7 @@
 package cn.jiang.station.platform.service;
 
+import cn.jiang.station.platform.common.domain.TbSysUser;
 import cn.jiang.station.platform.service.admin.ServiceAdminApplication;
-import cn.jiang.station.platform.service.admin.domain.TbSysUser;
 import cn.jiang.station.platform.service.admin.service.AdminService;
 import org.junit.Assert;
 import org.junit.Test;

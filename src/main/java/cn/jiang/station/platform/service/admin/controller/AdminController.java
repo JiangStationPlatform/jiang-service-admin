@@ -1,8 +1,8 @@
 package cn.jiang.station.platform.service.admin.controller;
 
-import cn.jiang.station.platform.service.admin.domain.TbSysUser;
-import cn.jiang.station.platform.service.admin.service.AdminService;
+import cn.jiang.station.platform.common.domain.TbSysUser;
 import cn.jiang.station.platform.common.dto.BaseResult;
+import cn.jiang.station.platform.service.admin.service.AdminService;
 import com.google.common.collect.Lists;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
