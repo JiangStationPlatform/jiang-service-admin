@@ -14,7 +14,7 @@ import tk.mybatis.mapper.entity.Example;
 @Service
 @Transactional(readOnly = true)
 public class AdminServiceImpl implements AdminService {
-    public static final Logger logger = LoggerFactory.getLogger(AdminServiceImpl.class);
+    private static final Logger logger = LoggerFactory.getLogger(AdminServiceImpl.class);
     @Autowired
     private TbSysUserMapper tbSysUserMapper;
 
@@ -37,8 +37,6 @@ public class AdminServiceImpl implements AdminService {
         }
         logger.info("开始验证密码");
         String password = DigestUtils.md5DigestAsHex(plantPassword.getBytes());
-        logger.info("传入密码：" + plantPassword);
-        logger.info("数据库密码：" + tbSysUser.getPassword());
         if (password.equals(tbSysUser.getPassword())) {
             return tbSysUser;
         }
