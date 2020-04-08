@@ -7,7 +7,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan(basePackages = "cn.jiang.station.platform.service.admin.mapper")
+@MapperScan(basePackages = {"cn.jiang.station.platform.common.mapper","cn.jiang.station.platform.service.admin.mapper"})
 public class ServiceAdminApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServiceAdminApplication.class, args);
