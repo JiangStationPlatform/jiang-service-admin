@@ -36,6 +36,13 @@
         </dependency>
         <!-- Spring Boot End -->
 
+        <!-- Utils Start -->
+        <dependency>
+            <groupId>org.python</groupId>
+            <artifactId>jython</artifactId>
+        </dependency>
+        <!-- Utils End -->
+
     </dependencies>
 
     <build>
